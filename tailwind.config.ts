@@ -9,9 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: '#3b141c', 
+        secondary: '#f3961c', 
+        pink: '#faf4f5',
       },
+      fontFamily: {
+        cursive: ['Miniver', 'Poppins', 'sans-serif'],
+      },
+
     },
   },
   plugins: [],
