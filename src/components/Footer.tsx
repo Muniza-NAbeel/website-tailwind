@@ -12,12 +12,14 @@ export default function Footer() {
       />
 
       {/* Centered Text */}
-      <div className="absolute inset-0 flex items-center justify-center">
-        <p className="text-primary text-lg font-semibold">
-        <i className="bx bx-copyright"></i> 2024 Made With 
-        <i className="bx bx-heart mx-1"></i> by Muniza Nabeel | All rights reserved.
-        </p>
-      </div>
+      <div className="absolute inset-0 flex items-center justify-center px-4 sm:px-8">
+  <p className="text-primary text-sm sm:text-base md:text-lg font-semibold text-center">
+    <i className="bx bx-copyright"></i> 2024 Made With
+    <i className="bx bx-heart mx-1"></i> by Muniza Nabeel | All rights reserved.
+  </p>
+</div>
+
     </footer>
   );
 }
+

@@ -3,7 +3,7 @@ export default function Contact() {
   return (
     <>
       <div className="Contact p-10 bg-pink mt-0" id="Contact">
-        <h2 className="text-primary text-4xl font-semibold flex justify-center mt-4 mb-8 space-y-0 sm:text-2xl md:text-4xl">
+        <h2 className="text-primary text-4xl font-semibold flex justify-center mt-4 mb-8 space-y-0 sm:text-md md:text-4xl ">
           Contact <span className="ml-2 text-secondary">Me!</span>
         </h2>
 
